@@ -121,9 +121,7 @@
                             android:id="@+id/profile_image"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:src="@drawable/rice"
-                            app:civ_border_color="#009688"
-                            app:civ_border_width="2dp" />
+                            android:src="@drawable/rice" />
                     </LinearLayout>
 
 
@@ -544,7 +542,6 @@
                             android:textSize="21dp" />
 
                     </LinearLayout>
-
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -555,9 +552,7 @@
                             android:id="@+id/chal"
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:src="@drawable/chal"
-                            app:civ_border_color="#009688"
-                            app:civ_border_width="2dp" />
+                            android:src="@drawable/chal" />
                     </LinearLayout>
 
 
@@ -565,94 +560,61 @@
 
             </LinearLayout>
 
-<!--
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center"
-                >
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/chal1"
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/p1"
-                    app:civ_border_color="#009688"
-                    app:civ_border_width="2dp" />
-            </LinearLayout>
--->
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
-                android:padding="10dp"
-
-                >
+                android:orientation="vertical"
+                android:padding="10dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/p1"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    android:src="@drawable/p1"
-                    app:civ_border_color="#009688"
-                    app:civ_border_width="2dp" />
+                    android:src="@drawable/p1" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
-
-                >
+                android:orientation="vertical">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/p2"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    android:src="@drawable/p2"
-                    app:civ_border_color="#009688"
-                    app:civ_border_width="2dp" />
+                    android:layout_gravity="center"
+                    android:src="@drawable/p2" />
             </LinearLayout>
-
-
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
-                android:padding="10dp"
-
-                >
+                android:orientation="vertical"
+                android:padding="10dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:src="@drawable/p3"
-                    app:civ_border_color="#009688"
-                    app:civ_border_width="2dp" />
+                   />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
-                android:padding="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
 
-                >
-
-                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    android:src="@drawable/p4"
-                    app:civ_border_color="#009688"
-                    app:civ_border_width="2dp" />
+                    android:src="@drawable/p4" />
             </LinearLayout>
 
 
@@ -660,9 +622,4 @@
 
     </ScrollView>
 
-<!--    <com.google.android.material.navigation.NavigationView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:menu="@menu/nevber_menu">
-    </com.google.android.material.navigation.NavigationView>-->
 </androidx.constraintlayout.widget.ConstraintLayout>
