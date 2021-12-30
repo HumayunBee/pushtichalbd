@@ -92,6 +92,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:background="@color/colorPrimary"
                     android:padding="5dp"
                     android:weightSum="2">
 
@@ -104,9 +105,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_marginTop="5dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:gravity="center"
                             android:text="পুষ্টিচাল পরিচিতি"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/white"
                             android:textSize="21dp" />
 
                     </LinearLayout>
@@ -117,8 +119,7 @@
                         android:padding="5dp">
 
 
-                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-                            android:id="@+id/profile_image"
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:src="@drawable/rice"
@@ -143,6 +144,7 @@
                     android:id="@+id/txt_address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloodasemibold"
                     android:padding="5dp"
                     android:text="বাংলাদেশের আপামর জনগণের প্রধান খাদ্য চাল। চালে আমিষ ও পুষ্টির পরিমাণ তুলনামূলকভাবে অন্যান্য দানাদার খাদ্য যেমন গম এর চেয়ে কম। তাছাড়া ধান থেকে চাল উৎপাদন করার জন্য বর্তমানে আধুনিক ছাটাই কল ব্যবহার করার ফলে যে টুকু পরিমাণ অনুপুষ্টি যথা ভিটামিন ও খনিজ লবণ চালে বিদ্যমান ওই সমস্ত উপাদানগুলোর অধিকাংশই দূরীভূত হয়ে যায়।
 
@@ -191,6 +193,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="ভিটামিন এ"
                             android:textColor="@color/colorPrimary"
                             android:textSize="15sp" />
@@ -200,6 +203,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="
 রোগ সংক্রমণ প্রতিরোধ করে, চোখের দৃষ্টি ভালো রাখে, অন্ধত্ব প্রতিরোধ করে ও শিশুদের দ্রুত বৃদ্ধিতে সহায়তা করে।"
                             android:textSize="12sp" />
@@ -252,6 +256,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="ভিটামিন বি১"
                             android:textColor="@color/colorPrimary"
                             android:textSize="15sp" />
@@ -261,6 +266,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="
 খাদ্য পরিপাকে সহায়তা করে, খাদ্য শক্তি বের করে। আয়ুর কার্যকরীতায় সহায়তা করে এবং সোডিয়াম ও পটাশিয়াম সমতা বজায় রাখে।"
                             android:textSize="12sp" />
@@ -313,6 +319,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="আয়রন"
                             android:textColor="@color/colorPrimary"
                             android:textSize="15sp" />
@@ -322,6 +329,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="আয়রন
 প্রধানত শরীরের লোহিত রক্তকণিকা গঠন করে স্বল্পতা প্রতিরোধ করে এবং অক্সিজেন সরবরাহের মাধ্যমে অন্যান্য কোষের কাজ সুষ্ঠুভাবে সম্পন্ন করে।"
                             android:textSize="12sp" />
@@ -374,6 +382,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="ফলিক এসিড"
                             android:textColor="@color/colorPrimary"
                             android:textSize="15sp" />
@@ -383,6 +392,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="
 গর্ভস্থ শিশুর জন্ম বিকৃতি কমাতে ফলিক এসিড সাহায্য করে এবং ফ বয়সী শিশুদের মূত্রনালী সুসংগঠিত করে।"
                             android:textSize="12sp" />
@@ -435,6 +445,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="ভিটামিন বি১২"
                             android:textColor="@color/colorPrimary"
                             android:textSize="15sp" />
@@ -444,6 +455,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="
 শরীরের বিভিন্ন অঙ্গ-প্রত্যঙ্গ সুগঠিত করে ও রক্তস্বল্পতা দূর করে।"
                             android:textSize="12sp" />
@@ -496,6 +508,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="জিংক"
                             android:textColor="@color/colorPrimary"
                             android:textSize="15sp" />
@@ -505,6 +518,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/baloodasemibold"
                             android:text="
 শরীরের স্বাভাবিক বৃদ্ধির জন্য দস্তার প্রয়োজন এবং শরীরের ক্ষত শুকানো, ডায়রিয়া ও অন্যান্য সংক্রমণ প্রতিরোধে সহায়তা করে।"
                             android:textSize="12sp" />
@@ -520,6 +534,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
                 android:padding="2dp">
 
                 <LinearLayout
@@ -540,7 +555,7 @@
                             android:layout_marginTop="5dp"
                             android:gravity="center"
                             android:text="পুষ্টিচালের তৈরির প্রক্রিয়া"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/white"
                             android:textSize="21dp" />
 
                     </LinearLayout>
@@ -569,8 +584,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
+                android:orientation="vertical"
                 android:padding="10dp"
 
                 >
@@ -587,8 +602,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
+                android:orientation="vertical"
 
                 >
 
@@ -602,13 +617,11 @@
             </LinearLayout>
 
 
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
+                android:orientation="vertical"
                 android:padding="10dp"
 
                 >
@@ -624,8 +637,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
+                android:orientation="vertical"
                 android:padding="10dp"
 
                 >
@@ -639,13 +652,11 @@
             </LinearLayout>
 
 
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="2dp"
-                android:background="@color/colorPrimary">
+                android:background="@color/colorPrimary"
+                android:padding="2dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -656,8 +667,7 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        >
+                        android:layout_height="match_parent">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -671,7 +681,6 @@
                     </LinearLayout>
 
 
-
                 </LinearLayout>
 
             </LinearLayout>
@@ -680,14 +689,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:gravity="center"
+                android:orientation="vertical"
                 android:padding="10dp"
 
                 >
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:src="@drawable/materials"
@@ -707,60 +715,261 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:textColor="@color/white"
                     android:text="সাধারণ চালের সঙ্গে ভিটামিন-এ, ভিটামিন-বি১, ভিটামিন-বি১২, ভিটামিন-বি৯ (ফলিক অ্যাসিড), আয়রন এবং জিঙ্ক উপাদান সমৃদ্ধ দানাদার চাল বা কার্নেল উৎপাদন করা হয়।
-পরে সাধারণ চালের সঙ্গে ১০০:১ অনুপাতে কার্নেল মিশিয়ে পুষ্টিসমৃদ্ধ চাল (ফর্টিফায়েড রাইস) প্রস্তুত করা হয়। প্রতি ১০০টি সাধারণ চালের সঙ্গে একটি পুষ্টিচাল অর্থাৎ ১০০ কেজিতে এক কেজি হারে পুষ্টিচাল মেশানো হয়। এ মিশ্রণ সয়ংক্রিয়ভাবেই হয়ে থাকে। " />
+পরে সাধারণ চালের সঙ্গে ১০০:১ অনুপাতে কার্নেল মিশিয়ে পুষ্টিসমৃদ্ধ চাল (ফর্টিফায়েড রাইস) প্রস্তুত করা হয়। প্রতি ১০০টি সাধারণ চালের সঙ্গে একটি পুষ্টিচাল অর্থাৎ ১০০ কেজিতে এক কেজি হারে পুষ্টিচাল মেশানো হয়। এ মিশ্রণ সয়ংক্রিয়ভাবেই হয়ে থাকে। "
+                    android:textColor="@color/white" />
             </LinearLayout>
 
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="100dp"
-                android:layout_height="120dp"
-                android:padding="15dp"
-                android:layout_margin="10dp"
-                app:cardCornerRadius="5dp"
-                app:cardElevation="5dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloodasemibold"
+                            android:gravity="center_horizontal"
+                            android:text="6420"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloodasemibold"
+                            android:gravity="center_horizontal"
+                            android:text="মোট ফ্যাক্টরি"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloodasemibold"
+                            android:gravity="center_horizontal"
+                            android:text="8800"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloodasemibold"
+                            android:gravity="center_horizontal"
+                            android:text="মোট বিক্রয় (KG)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloodasemibold"
+                            android:gravity="center_horizontal"
+                            android:text="9280"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloodasemibold"
+                            android:gravity="center_horizontal"
+                            android:text="বিক্রয়ের স্থান"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="10dp"
+                    android:padding="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/ic5" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloodasemibold"
+                            android:gravity="center_horizontal"
+                            android:text="1800"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloodasemibold"
+                            android:gravity="center_horizontal"
+                            android:text="মোসর্বমোট গ্রাহক"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/colorPrimary"
+                    android:padding="5dp"
+                  >
 
-                    <ImageView
-                        android:id="@+id/imageView"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_margin="10dp"
-                        android:src="@drawable/b" />
-
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="6420"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        android:gravity="center_horizontal" />
+                        android:layout_height="match_parent"
 
-                    <TextView
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/baloodasemibold"
+                            android:gravity="center"
+                            android:text="পুষ্টিচাল সম্পর্কে আপনার মতামত প্রদান করুন"
+                            android:textColor="@color/white"
+                            android:textSize="21dp" />
+
+                    </LinearLayout>
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="মোট ফ্যাক্টরি"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        android:gravity="center_horizontal" />
+                        android:layout_height="match_parent"
+                       android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="মতামত দিন"
+                            android:background="#f7c35f"
+                            />
+                    </LinearLayout>
+
 
                 </LinearLayout>
 
-
-            </androidx.cardview.widget.CardView>
-
-
-
-
+            </LinearLayout>
 
 
 
@@ -768,9 +977,9 @@
 
     </ScrollView>
 
-<!--    <com.google.android.material.navigation.NavigationView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:menu="@menu/nevber_menu">
-    </com.google.android.material.navigation.NavigationView>-->
+    <!--    <com.google.android.material.navigation.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:menu="@menu/nevber_menu">
+        </com.google.android.material.navigation.NavigationView>-->
 </androidx.constraintlayout.widget.ConstraintLayout>
