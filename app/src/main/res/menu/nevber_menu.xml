@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="হোম" />
+
+    <item
+        android:id="@+id/navigation_sreach"
+
+        android:icon="@drawable/home"
+        android:enabled="true"
+        android:title="পুষ্টিচাল কি?" />
+    <item
+        android:id="@+id/navigation_medicine"
+        android:icon="@drawable/home"
+        android:enabled="true"
+        android:title="ভোক্তার মতামত" />
+
+
+
+
+    <item
+        android:enabled="true"
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/home"
+        android:title="লগইন" />
+
+
+
+</menu>
