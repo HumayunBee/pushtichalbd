@@ -5,18 +5,18 @@
         <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="fontFamily">@font/gilroybold</item>
+        <item name="fontFamily">@font/baloodasemibold</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
-        <item name="fontFamily">@font/gilroybold</item>
+        <item name="fontFamily">@font/baloodasemibold</item>
     </style>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
         <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
-        <item name="fontFamily">@font/gilroybold</item>
+        <item name="fontFamily">@font/baloodasemibold</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -27,7 +27,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="fontFamily">@font/gilroybold</item>
+        <item name="fontFamily">@font/baloodasemibold</item>
 
     </style>
 
